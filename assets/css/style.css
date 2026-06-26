@@ -1,3 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 body{
     font-family: "Inter", sans-serif;
+    background-color: #024A4D;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+}
+
+header{
+    background-color: #043134;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > a{
+    font-size: 32px;
+}
+
+header button{
+    background: none;
+    border: none;
+}
+
+header img{
+    width: 61px;
+    height: 51px;
+}
+
+header ul{
+    display: none;
+}
+
+main{
+    
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+section{
+    margin-bottom: 60px;
+}
+
+section > h2{
+    font-size: 32px ;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+section p{
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #ebe0e0;
+}
+
+main img{
+    width: 250px;
+}
+
+main section{
+    padding:16px;
+}
+
+/* Trabalhando com seletor de id ( # ) */
+#hero img{
+    display: none;
+}
+
+#projetos p{
+    font: size 16px; ;
+}
+
+#hero{
+    background-color: #024A4D;
+}
+
+#projetos{
+    background-color: #07565A;
+}
+
+#contato{
+    background-color: #097077;
 }
