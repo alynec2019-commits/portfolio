@@ -63,12 +63,11 @@ section p{
     color: #ebe0e0;
 }
 
-main img{
-    width: 250px;
-}
+
 
 main section{
-    padding:16px;
+    padding-right:16px;
+    padding-left: 16px;
 }
 
 /* Trabalhando com seletor de id ( # ) */
@@ -86,8 +85,109 @@ main section{
 
 #projetos{
     background-color: #07565A;
+    padding: 20px;
 }
 
 #contato{
     background-color: #097077;
+}
+
+article{
+    background: linear-gradient(#062F32, #106166, #159AA2 );
+    margin-bottom: 28px;
+    border-radius: 32px;
+    
+    padding: 14px;
+}
+
+article img{
+    border-radius: 24px;
+    width: 100%;
+}
+/* espaço entre o card e o conteudo - 14px
+bordas aredondadas - cards - 32px - img 24px */
+
+article h3{
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+article p{
+    margin-bottom: 24px
+}
+
+article a{
+    background-color: #CDEEF0;
+    border-radius: 24px;
+    width: 100%;
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    color: black;
+}
+
+section form{
+   background: linear-gradient(#062F32, #106166, #159AA2 );
+   border-radius: 32px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 16px;
+   padding-right: 16px;
+   /* muda a direção dos elementos dentro da caixa flexivel */
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+/*  */
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label{
+    font-size: 14px;
+
+}
+
+input, textarea{
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 16px;
+    background-color: #CDEEF0;
+}
+
+textarea{
+    height: 128px;
+    font-family: inherit;
+}
+
+button{
+    background-color: #CDEEF0;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #043134;
+    
+}
+
+footer ul{
+    display: flex;
+    gap: 8px;
+    justify-self: center;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 8px;
 }
