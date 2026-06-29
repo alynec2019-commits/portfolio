@@ -42,6 +42,7 @@ header {
     align-items: center;
 }
 
+ 
 
 
 header>a {
@@ -251,18 +252,21 @@ footer p {
     #hero {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         gap: 24px;
     }
 
     #hero img {
         display: block;
-        height: 320px;
+        height: 323px;
+        width: 323px;
+        object-fit: cover;
         border-radius: 300px;
         /*  */
     }
 
     #hero div{
-        max-width: 500px; 
+        max-width: 500px;
     }
 
     h2 {
